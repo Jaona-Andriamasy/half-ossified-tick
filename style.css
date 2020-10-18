@@ -1,0 +1,47 @@
+* {
+  color: white; /* set text color to white for all elements using "Universal Selector" */
+}
+
+html { 
+  background: url(https://cdn.glitch.com/ae00d1be-7d94-4060-b87e-76cd4257c743%2Fthumbnails%2Fabstraitarbrefeuillebriselunesoleilnuit.jpg?1603031864368) no-repeat center center fixed;
+  /* set a background image to the html element (= our whole page) centered horizontally and vertically */
+  
+  background-size: cover;
+  /* adapt the size of the background image but keeps its ratio */
+}
+
+.container {
+  max-width: 600px;
+  /*
+  If our page is wider than 500px, element with class "container" will have a width of 500px;
+  if the page width is less than 500px, div width will be equal to page width.
+  By the way, this is a multi-line comment.
+  */
+  
+  margin: auto; /* center horizontally our 500px container */
+  margin-top: 100px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify; /* aligns text on the right and the left of paragraphs except last line */
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', cursive;; /* can also be "serif" (default), "fantasy", "monospace" or "cursive" */
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+
+span {
+  font-size: 40px;
+  line-height: 0px; /* ignore line height based on font-size on span */
+}
+
+#signature {
+  text-align: right;
+}
